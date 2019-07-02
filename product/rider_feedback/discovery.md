@@ -17,7 +17,7 @@ Some stretch and open-ended goals and consequences of this initiative:
 
 * Rider login system (OpenID?)
 * Tracked user preferences.
-* Cacched seaerches/previous trips.
+* Cached seaerches/previous trips.
 
 
 <img src="https://i.imgur.com/l3VooIs.png" width="250" />
@@ -26,6 +26,30 @@ Some stretch and open-ended goals and consequences of this initiative:
 
 
 ### Scenarios
+
+Scenario: Inclement weather has impacted the system as follows: 
+  * A fallen tree forces Brookhaven station to single-track trains with all scheduled Gold line trains incurring a +3 minute delay to their overall trips. 
+  * The bus bay capacity is reduced and bus departure/arrivals are shuffled from the posted locations.
+  * The parking lot availability is reduced by 50% 
+  * Adjacent traffic and crosswalk lights are non-functioning leading to considerable backed up traffic
+  
+|Actor|Goal(s)| 
+|---|---|
+|Rider (Reporter)| |
+|Rider (Viewer)|   |
+|SMARTA (API)|   |
+|Ataper (UI)| |
+|Analysis (Data science)| |
+
+### Key Questions
+
+To launch an MVP for this feature experiment we need answers to a handful of key questions:
+
+* How do we determine consensus of the existence/non-existence for a given reported event? 
+* What categories of events should we track by default?
+* How should the events be represented in the UI?
+* What's the lifespan of a reported event?
+
 
 ### Mock Ups
 
