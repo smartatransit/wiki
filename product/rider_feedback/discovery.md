@@ -47,16 +47,32 @@ Some stretch and open-ended goals and consequences of this initiative:
   * Capacity at park-and-ride stations is limited and highly volatile, particularly at terminating stations (Doraville, North Springs, etc...)
   * Ticket kiosks are backed up as first-time riders purchase Breeze cards en masse.
   * Ridership is dense for all Five Points-bound trains with increasing delays as boarding and departures neccessarily lengthen in time to reflect the capacity.
-  * Transfers exits prior to arrival at Five Points become increasingly difficult as the volume of ridres on trains and at the station revent easy movement.
+  * Transfers at exits prior to arrival at Five Points become increasingly difficult as the volume of riders on trains and at the station prevent easy movement.
   
 |Actor|Goal(s)| 
 |---|---|
-|Rider (Reporter)| |
-|Rider (Viewer)|  |
-|SMARTA (API)| |
-|Ataper (UI)| |
+|Rider (Reporter)| I wish to document observed waits at the station (kiosks, boarding, transfers, etc...) and delays on the train itself. |
+|Rider (Viewer)| I wish to see and/or be notified of trip-impacting events prior to immediate embarking. |
+|SMARTA (API)| I wish to collect, classify, and aggregate events on a chronological scale and present warning/alternatives as supplemental station data. |
+|Ataper (UI)| I wish to display inforation prominently and interactively to riders impacted at specific stations. |
 |Analysis (Data science)| ??? |
 
+*Scenario 3*: A gameday rider sets off a smoke bomb at Dome Stadium, impacting the system as follows:
+
+  * The platforms area of Dome Station are engulfed in smoke.
+  * Fire alarms are tripped as a consequence of the smoke.
+  * Stairs and escalators become congested and slow-moving.
+  * Trains in the immediate arrival schedule are stopped en route.
+  * Trains in the distant arrival schedule are delayed.
+  * Platforms for Dome-bound trains on the east/west line become congested as delays build.
+   
+|Actor|Goal(s)| 
+|---|---|
+|Rider (Reporter)| I wish to report the details and safety of the impact event and be made aware of emergency contact channels. |
+|Rider (Viewer)| I wish to see and/or be notified of the delays and receive suggestions for alternative exits in proximity. |
+|SMARTA (API)| I wish to collect and classify emergency-level events and triangulate/supplement the veracity with official MARTA notifications. |
+|Ataper (UI)| I wish to prominently display information about the event, its emergency level, and alternative courses of actions. |
+|Analysis (Data science)| ??? |
 
 
 ### Key Questions
