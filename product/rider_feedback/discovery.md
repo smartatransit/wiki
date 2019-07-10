@@ -6,7 +6,7 @@ The conceit of the story is that primary sources of truth are fundamentally inva
 
 ### Goals
 
-Our exaxmple for the first iteration is a riff on the Waze-style user feedback system with the key characteristics:
+Our example for the first iteration is a riff on the Waze-style user feedback system with the key characteristics:
 
 * Pre-defined event categories.
 * A confirm/deny system for each event to invalidate out-of-date/resolved incidents.
